@@ -48,5 +48,3 @@ def my_movies
 end
 
 my_movies()
-
-
