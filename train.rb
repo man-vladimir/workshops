@@ -13,9 +13,7 @@ def print_all_movies(movies)
 end
 
 def my_movies
-
   movies = { Matrix: 4, Alien: 4, Emmanuel: 5 }
-
   puts 'What would you like to do?'
   choice = gets.chomp
 
@@ -44,7 +42,6 @@ def my_movies
       print_all_movies(movies)
     else puts 'Error!'
   end
-
 end
 
 my_movies()
