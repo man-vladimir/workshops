@@ -12,5 +12,4 @@ crew = {
 }
  
 first_half = lambda { |__, value| value < "M"}
-a_to_m = crew.select(&first_half)
-puts a_to_m
+puts crew.select(&first_half)
