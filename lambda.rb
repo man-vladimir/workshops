@@ -11,6 +11,6 @@ crew = {
     doctor: "Crusher"
 }
  
-first_half = lambda { |key, value| value < "M"}
+first_half = lambda { |__, value| value < "M"}
 a_to_m = crew.select(&first_half)
 puts a_to_m
