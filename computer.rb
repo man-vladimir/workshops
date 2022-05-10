@@ -17,8 +17,8 @@ class Computer
     puts "#{@username} create file #{filename} at #{@files[filename]}"
   end
   
-  def Computer.get_users
-    return @@users
+  def self.get_users
+    @@users
   end
 end
 
